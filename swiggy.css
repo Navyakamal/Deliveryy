@@ -115,10 +115,10 @@ h1{
     .modal-dialog{
         width: 100%;
         max-width: 400px;
-        margin-left: auto;
+        margin-left: -20px;
     }
     .cont2 img{
-        margin-left: auto;
+        margin-left: 20px;
     }
 }
 .row span{
