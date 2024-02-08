@@ -54,7 +54,7 @@ h2{
     
 }
 .modal-title{
-  margin-left: 140px;
+  margin-left: 130px;
 }
 .modal-content{
     background-color:bisque;
@@ -62,11 +62,28 @@ h2{
 }
 form input,textarea{
     border: none;
+    width: 350px; 
+    background-color: bisque;
     
 }
 .modal-dialog{
     width: 400px;
 
+}
+.modal-header img{
+    height: 70px;
+}
+#b3{
+    width: 150px; 
+    margin-left: 40px; 
+    background-color: white;
+    color: black;
+}
+#b4{
+    width: 150px; 
+    margin-left: 200px; 
+    margin-top: -38px; 
+    background-color: black; 
 }
 h1{
     text-align: center;
@@ -178,19 +195,34 @@ h1{
         max-width: 400px;
         margin-left: -20px;
     }
+    .modal-header img{
+        margin-left: -32px;
+    }
+    form input,textarea{
+        width: 300px;
+    }
+    #b3{
+        width: 140px;
+        margin-left: 16px;
+    }
+    #b4{
+        width: 140px;
+        margin-left: 179px;
+    }
     .modal-content{
-        width: 94%;
+        width: 95%;
         max-width: 400px;
-        margin-left: 31px;
+        margin-left: 34px;
     }
     .cont1 img {
     
-       margin-left: 18px;
+       margin-left: 15px;
         max-width: 88%;
         height: auto;
     }
     .cont1 p{
-        margin-left: 9px;
+        margin-left: 4px;
+        text-align: justify;
     }
     .cont1 h3{
         margin-left: 10px;
@@ -234,7 +266,7 @@ h1{
     .cont1 #b5{
         font-size: 16px;
         margin-bottom: 20px;
-        margin-left: 50px;
+        margin-left: 40px;
         width: 172px;
         height: 37px;
     }
