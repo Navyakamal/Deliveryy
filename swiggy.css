@@ -135,11 +135,12 @@ h1{
         max-width: 400px;
         margin-left: -183px;
     }
-    #img4{
-        margin-left: 10px;
-        height: 200px;
-        width: 291px;
-        
+    .cont1 img {
+        display: block; 
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 80%;
+        height: auto;
     }
     #img1{
         height: 300px;
@@ -159,7 +160,7 @@ h1{
         margin-left: 10px;
         margin-bottom: 11px;
     }
-    #b5{
+    .cont1 #b5{
         font-size: 16px;
         margin-bottom: 20px;
         margin-left: 20px;
