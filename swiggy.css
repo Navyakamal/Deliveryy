@@ -99,22 +99,27 @@ h1{
     color: orangered;
 }
 .cont1 img{
-    font-family: 'Montserrat', sans-serif; 
+   
     height: 350px; 
-    width: 450px; 
-    margin-top: 15px; 
+    width: 511px; 
+    margin-left: -11px;
+    /* margin-top: 15px; 
     margin-left: 70px; 
-    margin-bottom: 15px
+    margin-bottom: 15px */
 }
 .cont1 h3{
     margin-top: 80px; 
     text-align: center; 
-    margin-left: 30px;
+    margin-left: -57px;
+    font-family: 'Montserrat', sans-serif; 
+
 }
 .cont1 p{
     text-align: justify; 
     margin-top: 10px;
-    margin-left: 30px;
+    margin-left: -68px;
+    font-family: 'Montserrat', sans-serif; 
+
 }
 .cont1:hover{
     transform: scale(1.03);
@@ -152,48 +157,25 @@ h1{
     margin-bottom: 50px;
 }
 #b6{
-    margin-left: 70px;
-    width: 120px;
-    height: 30px;
+    margin-left: -17px;
+    width: 250px;
+    height: 36px;
     color: white;
-    background-color: orangered;
+    background-color: black;
     border: none;
-    border-radius: 15px;
+    border-radius: 0px;
+    margin-top: -10px;
+    font-family: 'Montserrat', sans-serif; 
+
 }
-.ani1 {
+
+.ani1 h2{
+    font-family: 'Montserrat', sans-serif; 
     text-align: center;
-    color:orangered;
-    font-family: 'Roboto';
-    font-weight: 300;
-    font-size: 40px;
-    font-family: 'Nunito', sans-serif;
-    overflow: hidden;
-    -webkit-backface-visibility: hidden;
-    -webkit-perspective: 1000;
-    -webkit-transform: translate3d(0, 0, 0);
-    margin-top: 50px;
-}
+    color: orangered;
+    margin-top: 30px;
+    font-size: 35px;
 
-
-
-.ani1 div {
-    display: inline-block;
-    overflow: hidden;
-    white-space: nowrap;
-}
-
-.ani1 div:first-of-type {
-    animation: showup 7s infinite;
-}
-
-.ani1 div:last-of-type {
-    width: 0px;
-    animation: reveal 7s infinite;
-}
-
-.ani1 div:last-of-type span {
-    margin-left: -355px;
-    animation: slidein 7s infinite;
 }
 .card img{
     height: 300px;
@@ -204,6 +186,11 @@ h1{
 .cont4{
     margin-left: 200px;
     
+    
+}
+.cont4 .card{
+    border: none;
+    width: 250px;
 }
 .cont5 h1{
     text-align: center;
@@ -232,9 +219,9 @@ h1{
     width: 120px;
     height: 30px;
     color: white;
-    background-color: orangered;
+    background-color: black;
     border: none;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 .cont7{
     h3{
@@ -242,16 +229,18 @@ h1{
         font-family: 'Kanit', sans-serif;
         font-size: 50px;
         margin-top: 70px;
+        margin-left: 10px;
     }
     p{
         text-align: left;
         font-family: 'Kanit', sans-serif;
         font-size: 20px;
+        margin-left: 10px;
     }  
     img{
         height: 400px; 
         width: 500px; 
-        margin-left: -13px;
+        margin-left: 74px;
      
     }
     
@@ -262,18 +251,18 @@ h1{
         font-family: 'Kanit', sans-serif;
         font-size: 50px;
         margin-top: 90px;
-        margin-left: 50px;
+        margin-left: -15px;
     }
     p{
         text-align: left;
         font-family: 'Kanit', sans-serif;
         font-size: 20px;
-        margin-left: 50px;
+        margin-left: -15px;
     }  
     img{
         height: 400px; 
         width: 500px; 
-        margin-left: 57px;
+        margin-left: -13px;
      
     }
     
@@ -289,7 +278,7 @@ h1{
     
 }
 #b8{
-    background-color:rgba(255, 68, 0, 0.94);
+    background-color: black;
     color: white;
     width: 220px;
     height: 40px;
@@ -324,58 +313,14 @@ h1{
     text-align: center;
     background-color: black;
 }
-@keyframes showup {
-    0% {
-        opacity: 0;
-    }
-    20% {
-        opacity: 1;
-    }
-    80% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-    }
+.cont10 h1{
+    font-family: 'Montserrat', sans-serif; 
+    margin-top: 125px;
+    margin-left: 20px;
 }
-
-@keyframes slidein {
-    0% {
-        margin-left: -800px;
-    }
-    20% {
-        margin-left: -800px;
-    }
-    35% {
-        margin-left: 0px;
-    }
-    100% {
-        margin-left: 0px;
-    }
+.cont10 img{
+    height: 350px;
 }
-
-@keyframes reveal {
-    0% {
-        opacity: 0;
-        width: 0px;
-    }
-    20% {
-        opacity: 1;
-        width: 0px;
-    }
-    30% {
-        width: 330px;
-    }
-    80% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-        width: 330px;
-    }
-}
-
-
 @media (max-width: 768px) {
     
     h2 {
@@ -396,7 +341,9 @@ h1{
 }
 
 @media (max-width: 576px) {
-    
+    .navbar{
+        width: 100%;
+    }
     h2 {
         font-size: 30px;
     
@@ -452,16 +399,21 @@ h1{
     }
     .cont1 img {
     
-       margin-left: 15px;
-        max-width: 88%;
+       margin-left: 13px;
+        max-width: 93%;
         height: auto;
     }
     .cont1 p{
-        margin-left: 4px;
+        margin-left: 8px;
         text-align: justify;
     }
     .cont1 h3{
-        margin-left: 10px;
+        margin-left: 3px;
+        margin-top: 21px;
+    }
+    .c7{
+        margin-bottom: 5px;
+        margin-top: -75px;
     }
     #img1{
         height: 300px;
@@ -502,12 +454,13 @@ h1{
     .cont1 #b5{
         font-size: 16px;
         margin-bottom: 20px;
-        margin-left: 40px;
+        margin-left: 85px;
         width: 172px;
         height: 37px;
     }
     .ani1{
         font-size: 30px;
+        
     }
     .card{
         margin-left: -187px;
@@ -515,24 +468,27 @@ h1{
     }
     .cont4 .card{
     margin-top: 15px;
-    margin-left: -160px;
+    margin-left: -180px;
     
     }
     .cont6 .card{
-        margin-top: 15px;
-        margin-left: 40px;
+        margin-top: 20px;
+        margin-left: 15px;
         
         }
         .dropdown{
             margin-left: 20px;
         }
         #b7{
-            margin-left: 127px;
+            margin-left: 110px;
         }
+        .cont7{
+        margin-left: 44px;
+            }
         .cont7 img {
     
             margin-left: -13px;
-             max-width: 110%;
+             max-width: 112%;
              height: auto;
          }
          .cont7 p{
@@ -542,13 +498,17 @@ h1{
          .cont7 h3{
              margin-left: 10px;
              font-size: 30px;
+             margin-top: 10px;
          }
          #b8{
-            margin-left: 42px;
+            margin-left: 28px;
 height: 36px; 
-width: 190px; 
-font-size: 16px;
+width: 185px; 
+font-size: 15px;
 margin-bottom: 10px;       
+}
+.cont8{
+margin-left: 45px;
 }
 .cont8 img {
     
@@ -561,11 +521,23 @@ margin-bottom: 10px;
      text-align: justify;
  }
  .cont8 h3{
-     margin-left: 10px;
-     font-size: 30px;
+     margin-left: 6px;
+     font-size: 23px;
+     margin-top: 13px;
  }
  .cont9{
-    text-align: center;
-    margin-bottom: 10px;
- }
+ margin-bottom: 10px;
+ 
+}
+.cont9 h3{
+margin-left: 35px;
+font-size: 14px;
+margin-top: 10px;
+}
+.cont9 img{
+margin-top: 5px;
+} 
+.cont10 h1{
+    margin-top: 10px;
+}
 }
