@@ -50,11 +50,13 @@ h2{
     font-family: 'Montserrat', sans-serif; 
 }
 .cont button{
-    background-color: black;
-    color: white;
-    width: 300px;
+    background-color: white;
+    
+    width: 40px;
     height: 40px;
     border-radius: 20px;
+    position: fixed;
+    margin-left: 1470px;
     
 }
 .modal-title{
@@ -201,7 +203,7 @@ h1{
     
 }
 .cont6 .card{
-    border-radius: 20px;
+    border-radius: 0px;
     background-color: rgba(128, 128, 128, 0.153);
 }
 .card-rating i{
@@ -210,9 +212,30 @@ h1{
 .card-text{
     text-align: left;
 }
-.cont6 .card:hover{
+.cont6 .card:hover .card-body {
+    background-color: #f8f9fa;
+}
+.cont6 .card:hover  {
     transform: scale(1.05);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: transform 0.3s ease-in-out;
+    filter: brightness(80%);
+}
+.cont6 .card:hover .caption {
+    display: block;
+}
+
+.caption {
+    display: none;
+    text-align: center;
+    font-size: 40px;
+    position: absolute; 
+    color: white;
+    top: 30%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    padding: 10px; 
+    font-family: 'Montserrat', sans-serif; 
+
 }
 #b7{
     margin-left: 585px;
@@ -356,7 +379,11 @@ h1{
         width: 179px;
         height: 31px;
     }
-
+    .cont button{
+        margin-left: 15px;
+        margin-bottom: 10px;
+        position: fixed;
+    }
     .c3 {
         font-size: 24px;
     margin-bottom: 10px;
